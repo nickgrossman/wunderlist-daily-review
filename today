@@ -1,0 +1,6 @@
+#!/bin/sh
+
+quit Wunderlist
+sqlite3 /Users/nick/Library/Wunderlist/wunderlist.db < /Users/nick/dev/wunderlist-daily-review/today.sql
+open /Applications/Wunderlist.app/
+
