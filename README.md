@@ -32,7 +32,9 @@ To use:
 * 	You'll see something like:
 
 	`1|32952117|Inbox|1|13|0|1|0`
+	
 	`2|35968551|Today|3|11|0|0|0`
+	
 	`3|35968561|Daily Review|6|11|0|0|0`
 	
 	Where the first number is the list ID.
