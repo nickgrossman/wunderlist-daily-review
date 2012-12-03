@@ -1,7 +1,7 @@
 wunderlist-daily-review
 =======================
 
-Simple script for Mac OS that emulates [Things](http://culturedcode.com/things/#dailyreview)' "Daily Review" feature in [Wunderlist](http://wunderlist.com). See [this blog post](http://www.theslowhunch.net/2012/12/hacking-todos-…for-wunderlist/) for more info.
+Simple script for Mac OS that emulates [Things](http://culturedcode.com/things/#dailyreview)' "Daily Review" feature in [Wunderlist](http://wunderlist.com). See [this blog post](http://www.theslowhunch.net/2012/12/hacking-todos-daily-review-for-wunderlist/) for more info.
 
 Requirements:
 -------------
@@ -43,18 +43,18 @@ To use:
 
 *	Update `today` and make sure the paths to your wunderlist.db and today.sql are correct.
 
-*	Make `today` executable
+*	Make `today` executable and move it to your /usr/local/bin/
 
 	`$ chmod +x today`
 	
-	And move it to `/usr/local/bin`.
+	`$ mv today /usr/local/bin`.
 
 *	Put a few sample tasks in the "Today" list.
 
 * 	From the command line, run `$ today`.
 
-	Wunderlist will quit, any tasks that were filed under "Today" will be moved to "Daily Review".
-	
+	Wunderlist will quit, any tasks that were filed under "Today" will be moved to "Daily Review".	
+
 **Voila!**
 
 
