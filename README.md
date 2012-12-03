@@ -1,9 +1,7 @@
 wunderlist-daily-review
 =======================
 
-Simple script for Mac OS that emulates the "Daily Review" feature found in [Things](http://culturedcode.com/things/#dailyreview) in [Wunderlist](http://wunderlist.com).
-
-It assumes you are using Wunderlist "lists" to emulate the "today" / "next" functionality found in Things.  See [this blog post](#) for more info.
+Simple script for Mac OS that emulates [Things](http://culturedcode.com/things/#dailyreview)' "Daily Review" feature in [Wunderlist](http://wunderlist.com). See [this blog post](http://www.theslowhunch.net/2012/12/hacking-todos-…for-wunderlist/) for more info.
 
 Requirements:
 -------------
